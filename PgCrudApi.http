@@ -1,0 +1,12 @@
+@PgCrudApi_HostAddress = http://localhost:5163
+
+### Create Product
+POST {{PgCrudApi_HostAddress}}/api/products
+Content-Type: application/json
+
+{
+  "name": "Banana",
+  "description": "This is a sample product description",
+  "price": 30.99
+}
+
