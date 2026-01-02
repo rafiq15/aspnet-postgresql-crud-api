@@ -1,0 +1,97 @@
+### User Registration and Login API Testing
+
+### Register a new user
+POST http://localhost:5163/api/Auth/register
+Content-Type: application/json
+
+{
+  "username": "johndoe",
+  "email": "john@example.com",
+  "password": "password123"
+}
+
+###
+
+### Login with existing user
+POST http://localhost:5163/api/Auth/login
+Content-Type: application/json
+
+{
+  "email": "john@example.com",
+  "password": "password123"
+}
+
+###
+
+### Get all users (requires JWT token)
+GET http://localhost:5163/api/Auth/users
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+###
+
+### Get user by ID (requires JWT token)
+GET http://localhost:5163/api/Auth/users/1
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+###
+
+### Update user (requires JWT token)
+PUT http://localhost:5163/api/Auth/users/1
+Content-Type: application/json
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+{
+  "username": "johndoe_updated",
+  "email": "john.updated@example.com",
+  "password": "newpassword123"
+}
+
+###
+
+### Delete user (requires JWT token)
+DELETE http://localhost:5163/api/Auth/users/1
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+###
+
+### Get all products (requires JWT token)
+GET http://localhost:5163/api/Products
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+###
+
+### Get product by ID (requires JWT token)
+GET http://localhost:5163/api/Products/1
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+###
+
+### Create a new product (requires JWT token)
+POST http://localhost:5163/api/Products
+Content-Type: application/json
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+{
+  "name": "Laptop",
+  "description": "High performance laptop",
+  "price": 1299.99
+}
+
+###
+
+### Update a product (requires JWT token)
+PUT http://localhost:5163/api/Products/1
+Content-Type: application/json
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+{
+  "name": "Updated Laptop",
+  "description": "Updated description",
+  "price": 1399.99
+}
+
+###
+
+### Delete a product (requires JWT token)
+DELETE http://localhost:5163/api/Products/1
+Authorization: Bearer YOUR_JWT_TOKEN_HERE

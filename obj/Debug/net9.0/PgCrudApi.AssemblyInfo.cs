@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PgCrudApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d006c645bc3a6f7a4adf9a22bc17f7329fb89f37")]
 [assembly: System.Reflection.AssemblyProductAttribute("PgCrudApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PgCrudApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

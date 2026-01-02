@@ -133,3 +133,14 @@ D:\Cross-skill\CSHARP\PgCrudApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerG
 D:\Cross-skill\CSHARP\PgCrudApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Cross-skill\CSHARP\PgCrudApi\bin\Debug\net9.0\MinimalApis.Extensions.dll
 D:\Cross-skill\CSHARP\PgCrudApi\bin\Debug\net9.0\MiniValidation.dll
+D:\Cross-skill\CSHARP\PgCrudApi\bin\Debug\net9.0\client-app\package.json
+D:\Cross-skill\CSHARP\PgCrudApi\obj\Debug\net9.0\PgCrudApi.sourcelink.json
+D:\Cross-skill\CSHARP\PgCrudApi\bin\Debug\net9.0\client-app\package-lock.json
+D:\Cross-skill\CSHARP\PgCrudApi\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Cross-skill\CSHARP\PgCrudApi\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Cross-skill\CSHARP\PgCrudApi\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Cross-skill\CSHARP\PgCrudApi\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\Cross-skill\CSHARP\PgCrudApi\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\Cross-skill\CSHARP\PgCrudApi\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Cross-skill\CSHARP\PgCrudApi\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\Cross-skill\CSHARP\PgCrudApi\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll

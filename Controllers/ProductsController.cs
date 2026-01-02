@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 using PgCrudApi.Data;
 using PgCrudApi.Dtos;
 using PgCrudApi.mapper;
@@ -8,6 +9,7 @@ namespace PgCrudApi.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize] // Protect all endpoints with JWT
 public class ProductsController : ControllerBase
 {
     private readonly ProductDbContext _context;
