@@ -128,6 +128,8 @@ The API will be available at:
 
 ### Authentication Endpoints (Public)
 
+![Authentication Endpoints](images/swagger_auth.PNG)
+
 | Method | Endpoint | Description | Auth Required |
 |--------|----------|-------------|---------------|
 | POST | `/api/auth/register` | Register a new user | No |
@@ -143,6 +145,8 @@ The API will be available at:
 | DELETE | `/api/auth/users/{id}` | Delete user | Yes |
 
 ### Product Endpoints (Protected)
+
+![Product Endpoints](images/swagger_product.PNG)
 
 | Method | Endpoint | Description | Auth Required |
 |--------|----------|-------------|---------------|
